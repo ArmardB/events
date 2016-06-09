@@ -6,4 +6,4 @@ This simple follow along project covered topics such as:
 * Create forms 
 * Use partials for cleaner code
 * Display flash messages to users
-* Follow the steps of CRUD for model elements.
+* Follow the steps of CRUD for to interact with the model
