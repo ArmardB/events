@@ -1,24 +1,9 @@
-# README
+This simple follow along project covered topics such as:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Utilizing terminal commands to develops models, migrations files, templates folders. etc.
+* Implemented SASS 
+* Linked pages and develop an understanding of routes
+* Create forms 
+* Use partials for cleaner code
+* Display flash messages to users
+* Follow the steps of CRUD for model elements.
