@@ -1,5 +1,6 @@
 <article>
 	<header>
+	<%= image_for(@event) %>
 		<h1><%= @event.name %></h1>
 	</header>
 	<p>
@@ -17,7 +18,26 @@
 	<p>
 		<%= format_price(@event) %>
 	</p>
+	<h3>Capacity</h3>
+	<p>
+		<%= pluralize(@event.capacity, 'spot') %>
+	</p>
+	
+	<p>
+		<%= link_to "Who's Registered?", event_registrations_path(@event) %>
+	</p>
+	<footer>
+		
+		<%= register_link(@event) %>
 
-
+		<p>
+			(<%= pluralize(@event.spots_left, 'spot') %> available)
+		</p>
+		<nav>
+			<%= link_to 'Edit', edit_event_path(@event) %> |
+			<%= link_to 'Delete', event_path(@event), method: :delete, 
+					data: {confirm: 'Are you sure?'} %>
+		</nav>
+	</footer>
 
 </article>
